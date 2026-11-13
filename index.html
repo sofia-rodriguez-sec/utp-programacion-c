@@ -4,16 +4,154 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sofía Rodríguez | Portafolio</title>
-</head>
-<body>
-  <h1>Sofía Rodríguez</h1>
-  <p>Estudiante de Licenciatura en Ciberseguridad - UTP</p>
+  <style>
+    :root {
+      --fondo: #081120;
+      --tarjeta: #111d31;
+      --texto: #eaf1ff;
+      --suave: #aebfd9;
+      --acento: #41c7b6;
+      --borde: #263957;
+    }
 
-  <h2>Portafolio académico</h2>
-  <ul>
-    <li><a href="https://github.com/sofia-rodriguez-sec/utp-programacion-c">Programación en C</a></li>
-    <li><a href="https://github.com/sofia-rodriguez-sec/utp-programacion-java">Programación en Java</a></li>
-    <li><a href="https://github.com/sofia-rodriguez-sec">Perfil de GitHub</a></li>
-  </ul>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #081120, #102644);
+      color: var(--texto);
+    }
+
+    main {
+      width: min(1000px, 90%);
+      margin: 0 auto;
+      padding: 72px 0;
+    }
+
+    .presentacion {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .etiqueta {
+      color: var(--acento);
+      font-size: 0.9rem;
+      font-weight: bold;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 14px 0 12px;
+      font-size: clamp(2.3rem, 7vw, 4.5rem);
+    }
+
+    .presentacion p {
+      color: var(--suave);
+      font-size: 1.1rem;
+      margin: 0 auto;
+      max-width: 620px;
+      line-height: 1.7;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 22px;
+    }
+
+    .proyectos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .tarjeta {
+      background: rgba(17, 29, 49, 0.9);
+      border: 1px solid var(--borde);
+      border-radius: 14px;
+      padding: 24px;
+      text-decoration: none;
+      color: var(--texto);
+      transition: transform 0.2s, border-color 0.2s;
+    }
+
+    .tarjeta:hover {
+      transform: translateY(-5px);
+      border-color: var(--acento);
+    }
+
+    .icono {
+      font-size: 2rem;
+    }
+
+    .tarjeta h3 {
+      margin: 14px 0 8px;
+    }
+
+    .tarjeta p {
+      color: var(--suave);
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    footer {
+      border-top: 1px solid var(--borde);
+      color: var(--suave);
+      margin-top: 58px;
+      padding-top: 24px;
+      text-align: center;
+    }
+
+    footer a {
+      color: var(--acento);
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section class="presentacion">
+      <div class="etiqueta">Portafolio académico</div>
+      <h1>Sofía Rodríguez</h1>
+      <p>
+        Estudiante de Licenciatura en Ciberseguridad en la Universidad
+        Tecnológica de Panamá.
+      </p>
+    </section>
+
+    <section>
+      <h2>Mis repositorios</h2>
+
+      <div class="proyectos">
+        <a class="tarjeta" href="https://github.com/sofia-rodriguez-sec/utp-programacion-c">
+          <div class="icono">💻</div>
+          <h3>Programación en C</h3>
+          <p>Ejercicios y futuros proyectos académicos desarrollados en C.</p>
+        </a>
+
+        <a class="tarjeta" href="https://github.com/sofia-rodriguez-sec/utp-programacion-java">
+          <div class="icono">☕</div>
+          <h3>Programación en Java</h3>
+          <p>Espacio para ejercicios, sistemas y proyectos desarrollados en Java.</p>
+        </a>
+
+        <a class="tarjeta" href="https://github.com/sofia-rodriguez-sec">
+          <div class="icono">🔗</div>
+          <h3>Perfil de GitHub</h3>
+          <p>Conoce mi perfil y el progreso de mi portafolio académico.</p>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        <a href="https://github.com/sofia-rodriguez-sec">GitHub: sofia-rodriguez-sec</a>
+      </p>
+    </footer>
+  </main>
 </body>
 </html>
