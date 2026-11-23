@@ -1,20 +1,30 @@
-# Programación en C
+# Programación en C y C++
 
-Repositorio académico personal para organizar ejercicios y proyectos desarrollados en lenguaje C.
+Repositorio académico personal destinado a organizar y documentar ejercicios y proyectos desarrollados durante mi proceso de aprendizaje en programación.
 
 ## Propósito
 
-Documentar mi proceso de aprendizaje en programación, lógica y resolución de problemas mediante C.
+Fortalecer mis conocimientos de lógica de programación, resolución de problemas y desarrollo de programas mediante ejercicios prácticos en C y C++.
 
 ## Tecnologías
 
 - Lenguaje C
+- Lenguaje C++
 - Git y GitHub
 
-## Contenido
+## Contenido del repositorio
 
-Este repositorio se actualizará progresivamente con ejercicios, prácticas y proyectos académicos.
+| Archivo | Descripción |
+|---|---|
+| `biblioteca.c` | Archivo de código fuente desarrollado en C. |
+| `sistema de notas.cpp` | Archivo de código fuente desarrollado en C++. |
 
-## Estado
+## Objetivos de aprendizaje
 
-En construcción.
+- Practicar estructuras y fundamentos de programación.
+- Desarrollar la lógica y resolución de problemas.
+- Organizar y documentar proyectos académicos utilizando GitHub.
+
+## Estado del repositorio
+
+En desarrollo. Se agregarán nuevos ejercicios y proyectos conforme avance mi formación académica.
